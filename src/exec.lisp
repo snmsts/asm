@@ -2,7 +2,7 @@
                              (:shadow) (:export :asm-free :asm-alloc :asm-call)
                              (:intern))
 (in-package :asm/src/allocate)
-;;don't edit above
+;;;don't edit above
 (cffi:defcfun "posix_memalign" :int
   (memptr :pointer)
   (alignment osicat-posix::size)
